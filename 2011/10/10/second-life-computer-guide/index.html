@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta author="Express Zenovka">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Second Life Computer Guide - Dorktastically Delicious
+    </title>
+    <link rel="stylesheet" type="text/css" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Droid+Serif:400,700">
+    <link href="/stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="/stylesheets/desert.css" media="screen" rel="stylesheet" type="text/css">
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml">
+    <script type="text/javascript" src="/javascripts/prettify.js"></script>
+  </head>
+  <body onload="prettyPrint()" class="post">
+    <header id="header">
+      <hgroup>
+        <h1><a href="/">Dorktastically Delicious</a>
+        </h1>
+        <h2>Puts the sausage in awesomesausage
+        </h2>
+      </hgroup>
+      <nav class="web">
+        <h3>Social
+        </h3>
+        <ul>
+          <li class="plurk"><a href="http://plurk.com/express">Plurk</a>
+          </li>
+          <li class="twitter"><a href="http://twitter.com/expresszenovka">Twitter</a>
+          </li>
+          <li class="fb"><a href="http://www.facebook.com/expresszenovka">Facebook</a>
+          </li>
+          <li class="sl"><a href="http://my.secondlife.com/express.zenovka">Second Life</a>
+          </li>
+        </ul>
+        <h3>Work
+        </h3>
+        <ul>
+          <li class="gh"><a href="http://github.com/expresszenovka/">Github</a>
+          </li>
+          <li class="bb"><a href="http://github.com/expresszenovka/">Bitbucket</a>
+          </li>
+          <li class="flickr"><a href="http://www.flickr.com/people/expresszenovka/">Flickr</a>
+          </li>
+        </ul>
+        <h3>Network
+        </h3>
+        <ul>
+          <li><a href="http://lunajubilee.com">Luna Jubilee</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="content">
+      <nav id="breadcrumb"><a href="/" class="read-more">&larr; Back</a>
+      </nav>
+<article class="hentry">
+  <header>
+    <h1 class="entry-title"><a href="/2011/10/10/second-life-computer-guide">Second Life Computer Guide</a>
+    </h1>
+    <time datetime="2011-10-10T00:10:00Z" pubdate="pubdate" class="updated">10 October 2011
+    </time>
+    <p class="byline author vcard">by <span class="fn">Express Zenovka</span>
+    </p>
+    <div class="tags"><a href="/tags.html#tech">tech</a>, <a href="/tags.html#computer">computer</a>, <a href="/tags.html#guide">guide</a>, <a href="/tags.html#recommendation">recommendation</a>
+    </div>
+  </header><p>Every so often I see someone on <a href="http://www.plurk.com/express/invite">plurk</a> ask about what makes a good computer for Second Life. I try to answer when I can but feel like I'm often saying the same things over and over again. So, I figured I'd sit down and write it all down as best I could so I can just link to the post from now on.</p>
+
+<h2>General Guidelines</h2>
+
+<p>I'm pretty sure that most computers on the market now can run Second Life, since they are better than the <a href="http://secondlife.com/support/system-requirements/">minimum requirements</a> listed on the official page. In fact, you can run SL on a netbook -- I've run both Snowglobe and Viewer 2 on mine. But there's a difference between running and running <em>well</em>.</p>
+
+<p>While we may not consider SL a game, it certainly looks like one to a computer. As a result, its no surprise that the recommended system specs are similar to those for a gaming rig. That doesn't mean you need a top of line gaming monstrosity to run Second Life though.</p>
+
+<h3>Video Card</h3>
+
+<p>This is probably the most important of your Second Life experience. Sure, you need the rest of your computer working too but the choice of graphics card can make or break your SL experience.</p>
+
+<p>A key thing to realize is that I'm talking about a discrete graphics <em>card</em>. Many computers come with integrated graphics "solutions". These aren't good for 3D applications like Second Life -- they are slower and generally less powerful than discrete cards.</p>
+
+<p><strong>There is really only one type of card to get for Second Life: NVIDIA Geforce.</strong></p>
+
+<p>NVIDIA does make other types of cards, such as the NVIDIA Quadro line. Quadro cards have different drivers that are not optimized for games and (more importantly) these cards are <strong>not supported</strong> by Linden Lab.</p>
+
+<p>The other big player in the dedicated graphics card realm is AMD (formerly known as ATI). Simply put, AMD drivers don't support SL very well.</p>
+
+<p>The longer, more technical explanation is that the Second Life client is written using OpenGL, a cross-language, cross-platform API for computer graphics. While OpenGL can be done purely in software, putting all the graphics work on the CPU, good graphics card drivers move more and more of that burden onto the GPU, the processor on the graphics card. Historically, ATI's implementation of OpenGL has been very poor. It has gotten better recently, but the situation is a case of too little, too late -- NVIDIA does it better and offers better extensions. For the record, if the Lab had gone with OpenGL's main competitor, DirectX, Second Life would be limited to Windows users only.</p>
+
+<p>Back on topic. You want an NVIDIA Geforce card. But which one? Modern day Geforce cards follow a specific naming pattern: an optional prefix followed by a three digit number.</p>
+
+<p>The prefixes are really useful. They're the easiest way to distinguish the intent of a card. The GTX prefix designates the high end, meant for gamers who want the best. These are the most expensive but basically always guarantee a good experience in SL. The GTS and GT prefixes indicate that the card was intended for media and mid-level gaming. These cards will work with SL, but don't expect to run around on ultra all the time (especially with a GT card). The G prefix or no prefix at all means that card was meant for business machines or low power machines. Don't expect much from these. Sometimes (especially in laptops) these are integrated solutions, making them even less powerful.</p>
+
+<p>While the prefix is useful, the three digit number is what really matters. Unfortunately, a bigger three digit number is not always better. The latter two digits indicate power. GTX cards are generally 60 or higher. GT and GTS cards are generally between 30 and 60, while the G cards are usually less than 30. The first digit is indicates the family. For most part, a newer family (with a higher first digit) is more powerful than an older family (with a lower first digit). That is to say, the Geforce 400 family is better than the Geforce 200 family. But, a GTS 450 is less powerful than a GTX 280 and both of those cards are less powerful than a GTX 475.</p>
+
+<p>It is worth mentioning that AMD video cards are generally cheaper than NVIDIA ones and currently (mid-2011) more plentiful, since NVIDIA has had some manufacturing trouble. As a result, many off the shelf laptops and desktops (Apple included) currently have AMD video cards. I have heard both success and nightmare stories about AMD cards in SL so I find it hard to recommend them.</p>
+
+<p>On the other hand, NVIDIA's current laptops with Optimus can be pretty frustrating. Optimus switches between Intel onboard graphics and the NVIDIA card based on need, which is great on paper but in practice doesn't work with OpenGL applications like SL. Whether or not your laptop uses its full potential will be luck of draw, specially since companies like Dell offer no option to turn Optimus off.</p>
+
+<p>I guess that means that in the desktop world NVIDIA is a clear winner but with laptops it's a complete crap shoot.</p>
+
+<h3>Memory</h3>
+
+<p>Video cards are very important for Second Life. Thus the huge section above. But they're not the only important piece.</p>
+
+<p>You'll want 64bit operating system and at least 4GB of RAM. While both are relatively standard nowadays, it's worth keeping an eye out. 32bit operating systems can only use 4GB of RAM so adding any beyond that to a 32bit machine is useless. 64bit operating systems can support a lot more memory (TB, if not PB) so you can use 6GB, 8GB, or even 12GB if you really want to splurge. It's worth noting that Second Life is still a 32bit application and as such it can only use 4GB of memory at any given time. The extra RAM, however, can be used by other programs while running SL.</p>
+
+<p>One thing to watch out for with memory is that it is often sold "paired". That is, you buy multiple (usually 2 or 3) sticks of the same size use them together in "dual channel" or "triple channel" mode. Breaking pairs is not a bad thing but not ideal either. You can read more on the <a href="http://www.crucial.com/kb/answer.aspx?qid=3629">FAQ from Crucial</a>.</p>
+
+<p>Of course, the faster your memory is the better. But for most intents and purposes, your memory will not be the bottleneck in your system. Generally its your disk drives but sometimes PEBKAC.</p>
+
+<h3>Other Computer Parts</h3>
+
+<p>Once you have a powerful graphics card and plenty of memory, you're basically set. But, here's a quick list of things to keep an eye out for.</p>
+
+<h4>Processors</h4>
+
+<p>Standard desktop processors and standard laptop processors are generally more than plenty for running SL. However, keep in mind that your processor has to pick up the slack if your video card isn't quite up to snuff.</p>
+
+<p>The things to look for in a processor are:</p>
+
+<ol>
+<li>Company</li>
+<li>Cores</li>
+<li>Clockspeed</li>
+</ol>
+
+<p>The two big players in the CPU realm are Intel and AMD. Generally speaking, Intel processors are "better" than AMD but AMD processors are cheaper than Intel ones. For a while this wasn't quite true (AMD spanked Intel with 64bit processors) but Intel regained its throne with the introduction of Core processors a few years back. This doesn't mean that AMD processors are bad, but if you have the money it won't hurt to get an Intel.</p>
+
+<p>Next up are cores. Basically, Intel and AMD realized they were having trouble making processors faster. We've had ~3.0 GHz computers since 2000 or so. Apparently going faster made things melt. They decided to scale by adding more processors instead. If you have one processor at 3.0 GHz, two of them is even better! Each of these "processors" is a core.</p>
+
+<p>It's worth noting that having more cores doesn't automatically make your computer faster. Many programs don't take advantage of more than one core, though this is slowly changing. Instead, more cores allow your computer to multitask better. Programs (like SL, Photoshop, etc.) can hog a single core and avoid competing with other programs for processing time.</p>
+
+<p>Finally, let's talk clock speed. A computer can flip a bit from 1 to 0 or 0 to 1 once per "cycle." If you speed up the frequency of the cycles, the computer becomes faster. That frequency is the clock speed. As I mentioned above, processors have sort of topped out around 3.5 GHz. Instead of increasing the clock rate, Intel and AMD now focus on doing more tasks per clock cycle via strategies like multiple cores.</p>
+
+<p>Most mere humans (myself included) usually cannot tell the difference between a 2.6 GHz and 2.8 GHz machine unless we're actually reading a CPU speed output. Therefore, the absolute fastest processors are generally a huge rip off. For example, Intel's current top of the line (i7-990X, since its successor i7-3960X won't be out till the fall) is $1000. It is a 3.46 GHz 6 core beast. The next step down (i7-970) is also six cores, but "only" 3.2 GHz. It's also a bit over half as much  at $550.</p>
+
+<p>I've found the sweet spot for best bang per buck sits somewhere around 2.4 - 2.8 GHz for desktops and 2.0 - 2.2 GHz for laptops. Quadcore is pretty standard in the desktop arena and most laptops are following suit. In mid 2011, just about any Intel Core processor (from the high end i7s to the low end i3s) should serve you well. On the AMD side, you'll probably want to stick to Phenom II X6 processors from the last year or two or one of upcoming high-end Bulldozer processors.</p>
+
+<h4>Hard Drive</h4>
+
+<p>As I mentioned before, a mechanical disk drives are basically the slowest parts of a computer. Spinning magnetic disks are slower than memory chips and there's not much you can do about it. However, this really shouldn't affect SL performance. We're talking maybe a few more fps going from the slowest drives to the absolute fastest. If you really want to know about the fastest hard dives, keep reading. If you just want a guideline, skip to the last paragraph before the next section.</p>
+
+<p>The way gamers used to solve this "problem" of a "horribly slow" hard drive was to:</p>
+
+<ol>
+<li>get drives that spin faster</li>
+<li>run a bunch of drives in parallel</li>
+</ol>
+
+<p>The latter is what I like to call "a bad idea." If one of those multiple drives ever fails, all of the data is inaccessible. It's a lot of complexity for not that much reward. However, if you are interested,  go read up on RAID0.</p>
+
+<p>As for spinning faster, standard desktop drives today run at 7200 rpm. Green power storage drives are usually 5400 rpm. 5400 is kinda slow, but 7200 is what most of us are used to. Gamers, though, would often look at WD Raptors and Velociraptors that run at 10,000 rpm. For comparison, high end storage drives used to top out at 15,000 rpm.</p>
+
+<p>However, spinning discs cannot compete with memory chips like the ones in USB flash drives. So why not use a giant flash drive inside your computer? That's the basic premise of solid state drives. The average solid state drive (SSD) blows even the fastest mechanical hard disk drives (HDD) out of the water.</p>
+
+<p>SSDs come at a price. A really really huge price. While the cost has dropped over the last few years, you're still looking at $1.50-$2 minimum per GB in mid 2011. HDDs, on the other had, are currently somewhere around $0.10/GB.</p>
+
+<p>On top of that, SSDs are often smaller than your average HDD. While you can find 2TB SSDs, average consumer ones are usually between 32GB to 256GB. HDDs on the other hand, go all the way to 3TB right now.</p>
+
+<p>For what its worth, I currently don't use SSDs in any of my computers, but will probably switch when I buy my next one in a year or two. I'll run my operating system and programs off an SSD and keep all my data (music, movies, pictures, etc.) on a storage HDD.</p>
+
+<p>Basically, if you're getting a mechanical drive, make sure its at least 7200 rpm. That is the standard desktop speed. If you are getting a solid state drive, make sure you do you your research and have enough storage space. It's up to you to determine your storage needs.</p>
+
+<h3>Network Cards</h3>
+
+<p>Really, your ISP will be the limiting factor here. Having a good connection really helps with all sorts of internet things.</p>
+
+<p>However, if you are worried about your computer's network capabilities, keep reading.</p>
+
+<p>In general, faster is better (and usually more expensive).</p>
+
+<p>For wired network cards, 10GbE (10 Gbit/s) > 1GbE (1 Gbit/s) > 100 Mbit/s > 10 Mbit/s.</p>
+
+<p>For wireless network cards, Dual 802.11n (600 Mbit/s) > 802.11n (300 Mbit/s)> 802.11g (4 Mbit/s)> 802.11b (11 Mbit/s) .</p>
+
+<p>Keep in mind that every part of the connection is as fast as the weakest link. Most residential internet connections are under 100 Mbit/s. The faster specifications could help inside the house though. If you have two 802.11n laptops and an 802.11n router, you could possibly transfer files at speeds over 100 Mbit/s despite only having a 15Mbit/s internet connection outside the house.</p>
+
+<p>Most current desktops support 1GbE. More and more laptops are offering 802.11n wireless cards every day. However, many of the routers I've gotten from ISPs in the last two years (a Comcast cable modem/router and a Verizon FIOS router the year before) only support 100 Mbit/s wired 802.11g wireless.</p>
+
+<h3>Other Stuff</h3>
+
+<p>The following is a list of other stuff I can think of in or around computers:</p>
+
+<ul>
+<li>Monitor</li>
+<li>Keyboard</li>
+<li>Mouse</li>
+<li>Sound card</li>
+<li>Mic and/or Webcam</li>
+<li>Card reader and/or media drives (Blu-ray, DVD, CD)</li>
+<li>External hard drive</li>
+<li>TV tuner</li>
+</ul>
+
+<p>None of these should have an effect on your SL performance. A lot of these could affect your SL (screen size, ergonomic comfort, being that guy or girl with the static on voice) but will mostly come down to personal needs and preferences.</p>
+
+<h2>Laptops vs Desktops</h2>
+
+<p>Most of what I've said thus far applies to both laptops and desktops. Again, which you choose will probably come down to personal preference and needs.</p>
+
+<p>Laptops were made to be portable. This makes them more expensive than desktops with an equivalent feature set. If you aren't planning on moving your computer around a lot, getting a desktop will probably get you more bang for your buck. If size is a huge concern, then a laptop might be better for you. That said, there are rather small desktop cases out there nowadays like the Sugo SG07 mentioned in this <a href="http://www.silentpcreview.com/Silent_Gaming_System_Build_Guide/">small form factor gaming guide</a>.</p>
+
+<p>For what its worth, I run SL on a laptop most of the time. When I blogged and took a lot of photographs in SL, I did most of it on a desktop.</p>
+
+<h2>Apple</h2>
+
+<p>This guide is aimed towards people running Windows or Linux. Ironically, I use my Apple laptop most of the time. Most of the general recommendations and guidelines still apply to Apple machines. However, Apple only supports a limited set of hardware so some of the details may not apply.</p>
+
+<p>Thanks to the way that Apple segments its markets, it's actually pretty easy to recommend Apple products for Second Life. If you want a desktop, a recent iMac works pretty well and would probably serve you well for a year or two. A Mac Pro might last you twice as long but will probably cost you more than twice as much.</p>
+
+<p>On the laptop front, you want a Macbook Pro.</p>
+
+<h2>Summary</h2>
+
+<p>So here's a recap:</p>
+
+<dl>
+<dt>Graphics Card</dt>
+<dd>
+<p>Desktops: NVIDIA. Laptops: a crap shoot.</p>
+</dd>
+<dt>Operating System</dt>
+<dd>
+<p>64bit OS</p>
+</dd>
+<dt>Memory</dt>
+<dd>
+<p>4GB at least</p>
+</dd>
+<dt>Processor</dt>
+<dd>
+<p>Quadcore, at least 2.0GHz. Intel or AMD.</p>
+</dd>
+<dt>Hard Drive</dt>
+<dd>
+<p>Don&#8217;t do 5400 RPM unless its for storage. Anything else should work.</p>
+</dd>
+<dt>Network Card</dt>
+<dd>
+<p>Just make sure you&#8217;re online.</p>
+</dd>
+</dl>
+
+</article>
+
+    </section>
+    <footer>
+      <nav class="web">
+        <h3>Social
+        </h3>
+        <ul>
+          <li class="plurk"><a href="http://plurk.com/express">Plurk</a>
+          </li>
+          <li class="twitter"><a href="http://twitter.com/expresszenovka">Twitter</a>
+          </li>
+          <li class="fb"><a href="http://www.facebook.com/expresszenovka">Facebook</a>
+          </li>
+          <li class="sl"><a href="http://my.secondlife.com/express.zenovka">Second Life</a>
+          </li>
+        </ul>
+        <h3>Work
+        </h3>
+        <ul>
+          <li class="gh"><a href="http://github.com/expresszenovka/">Github</a>
+          </li>
+          <li class="bb"><a href="http://github.com/expresszenovka/">Bitbucket</a>
+          </li>
+          <li class="flickr"><a href="http://www.flickr.com/people/expresszenovka/">Flickr</a>
+          </li>
+        </ul>
+        <h3>Network
+        </h3>
+        <ul>
+          <li><a href="http://lunajubilee.com">Luna Jubilee</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="copyright">Content &copy; Express Zenovka
+      </p>
+    </footer>
+  </body>
+</html>

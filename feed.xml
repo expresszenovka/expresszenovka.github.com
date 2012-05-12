@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Dorktastically Delicious
+  </title>
+  <link href="http://blog.spressie.com/feed.xml" rel="self">
+  </link>
+  <link href="http://blog.spressie.com">
+  </link>
+  <updated>2011-10-10T00:10:00Z
+  </updated>
+  <id>http://blog.spressie.com
+  </id>
+  <author>
+    <name>Dorktastically Delicious
+    </name>
+  </author>
+  <entry>
+    <title>Second Life Computer Guide
+    </title>
+    <link href="http://blog.spressie.com/2011/10/10/second-life-computer-guide">
+    </link>
+    <updated>2011-10-10T00:10:00Z
+    </updated>
+    <id>http://blog.spressie.com/2011/10/10/second-life-computer-guide
+    </id>
+    <content type="html">&lt;p&gt;Every so often I see someone on &lt;a href="http://www.plurk.com/express/invite"&gt;plurk&lt;/a&gt; ask about what makes a good computer for Second Life. I try to answer when I can but feel like I'm often saying the same things over and over again. So, I figured I'd sit down and write it all down as best I could so I can just link to the post from now on.&lt;/p&gt;
+
+&lt;h2&gt;General Guidelines&lt;/h2&gt;
+
+&lt;p&gt;I'm pretty sure that most computers on the market now can run Second Life, since they are better than the &lt;a href="http://secondlife.com/support/system-requirements/"&gt;minimum requirements&lt;/a&gt; listed on the official page. In fact, you can run SL on a netbook -- I've run both Snowglobe and Viewer 2 on mine. But there's a difference between running and running &lt;em&gt;well&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;While we may not consider SL a game, it certainly looks like one to a computer. As a result, its no surprise that the recommended system specs are similar to those for a gaming rig. That doesn't mean you need a top of line gaming monstrosity to run Second Life though.&lt;/p&gt;
+
+&lt;h3&gt;Video Card&lt;/h3&gt;
+
+&lt;p&gt;This is probably the most important of your Second Life experience. Sure, you need the rest of your computer working too but the choice of graphics card can make or break your SL experience.&lt;/p&gt;
+
+&lt;p&gt;A key thing to realize is that I'm talking about a discrete graphics &lt;em&gt;card&lt;/em&gt;. Many computers come with integrated graphics "solutions". These aren't good for 3D applications like Second Life -- they are slower and generally less powerful than discrete cards.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;There is really only one type of card to get for Second Life: NVIDIA Geforce.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;NVIDIA does make other types of cards, such as the NVIDIA Quadro line. Quadro cards have different drivers that are not optimized for games and (more importantly) these cards are &lt;strong&gt;not supported&lt;/strong&gt; by Linden Lab.&lt;/p&gt;
+
+&lt;p&gt;The other big player in the dedicated graphics card realm is AMD (formerly known as ATI). Simply put, AMD drivers don't support SL very well.&lt;/p&gt;
+
+&lt;p&gt;The longer, more technical explanation is that the Second Life client is written using OpenGL, a cross-language, cross-platform API for computer graphics. While OpenGL can be done purely in software, putting all the graphics work on the CPU, good graphics card drivers move more and more of that burden onto the GPU, the processor on the graphics card. Historically, ATI's implementation of OpenGL has been very poor. It has gotten better recently, but the situation is a case of too little, too late -- NVIDIA does it better and offers better extensions. For the record, if the Lab had gone with OpenGL's main competitor, DirectX, Second Life would be limited to Windows users only.&lt;/p&gt;
+
+&lt;p&gt;Back on topic. You want an NVIDIA Geforce card. But which one? Modern day Geforce cards follow a specific naming pattern: an optional prefix followed by a three digit number.&lt;/p&gt;
+
+&lt;p&gt;The prefixes are really useful. They're the easiest way to distinguish the intent of a card. The GTX prefix designates the high end, meant for gamers who want the best. These are the most expensive but basically always guarantee a good experience in SL. The GTS and GT prefixes indicate that the card was intended for media and mid-level gaming. These cards will work with SL, but don't expect to run around on ultra all the time (especially with a GT card). The G prefix or no prefix at all means that card was meant for business machines or low power machines. Don't expect much from these. Sometimes (especially in laptops) these are integrated solutions, making them even less powerful.&lt;/p&gt;
+
+&lt;p&gt;While the prefix is useful, the three digit number is what really matters. Unfortunately, a bigger three digit number is not always better. The latter two digits indicate power. GTX cards are generally 60 or higher. GT and GTS cards are generally between 30 and 60, while the G cards are usually less than 30. The first digit is indicates the family. For most part, a newer family (with a higher first digit) is more powerful than an older family (with a lower first digit). That is to say, the Geforce 400 family is better than the Geforce 200 family. But, a GTS 450 is less powerful than a GTX 280 and both of those cards are less powerful than a GTX 475.&lt;/p&gt;
+
+&lt;p&gt;It is worth mentioning that AMD video cards are generally cheaper than NVIDIA ones and currently (mid-2011) more plentiful, since NVIDIA has had some manufacturing trouble. As a result, many off the shelf laptops and desktops (Apple included) currently have AMD video cards. I have heard both success and nightmare stories about AMD cards in SL so I find it hard to recommend them.&lt;/p&gt;
+
+&lt;p&gt;On the other hand, NVIDIA's current laptops with Optimus can be pretty frustrating. Optimus switches between Intel onboard graphics and the NVIDIA card based on need, which is great on paper but in practice doesn't work with OpenGL applications like SL. Whether or not your laptop uses its full potential will be luck of draw, specially since companies like Dell offer no option to turn Optimus off.&lt;/p&gt;
+
+&lt;p&gt;I guess that means that in the desktop world NVIDIA is a clear winner but with laptops it's a complete crap shoot.&lt;/p&gt;
+
+&lt;h3&gt;Memory&lt;/h3&gt;
+
+&lt;p&gt;Video cards are very important for Second Life. Thus the huge section above. But they're not the only important piece.&lt;/p&gt;
+
+&lt;p&gt;You'll want 64bit operating system and at least 4GB of RAM. While both are relatively standard nowadays, it's worth keeping an eye out. 32bit operating systems can only use 4GB of RAM so adding any beyond that to a 32bit machine is useless. 64bit operating systems can support a lot more memory (TB, if not PB) so you can use 6GB, 8GB, or even 12GB if you really want to splurge. It's worth noting that Second Life is still a 32bit application and as such it can only use 4GB of memory at any given time. The extra RAM, however, can be used by other programs while running SL.&lt;/p&gt;
+
+&lt;p&gt;One thing to watch out for with memory is that it is often sold "paired". That is, you buy multiple (usually 2 or 3) sticks of the same size use them together in "dual channel" or "triple channel" mode. Breaking pairs is not a bad thing but not ideal either. You can read more on the &lt;a href="http://www.crucial.com/kb/answer.aspx?qid=3629"&gt;FAQ from Crucial&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Of course, the faster your memory is the better. But for most intents and purposes, your memory will not be the bottleneck in your system. Generally its your disk drives but sometimes PEBKAC.&lt;/p&gt;
+
+&lt;h3&gt;Other Computer Parts&lt;/h3&gt;
+
+&lt;p&gt;Once you have a powerful graphics card and plenty of memory, you're basically set. But, here's a quick list of things to keep an eye out for.&lt;/p&gt;
+
+&lt;h4&gt;Processors&lt;/h4&gt;
+
+&lt;p&gt;Standard desktop processors and standard laptop processors are generally more than plenty for running SL. However, keep in mind that your processor has to pick up the slack if your video card isn't quite up to snuff.&lt;/p&gt;
+
+&lt;p&gt;The things to look for in a processor are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Company&lt;/li&gt;
+&lt;li&gt;Cores&lt;/li&gt;
+&lt;li&gt;Clockspeed&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The two big players in the CPU realm are Intel and AMD. Generally speaking, Intel processors are "better" than AMD but AMD processors are cheaper than Intel ones. For a while this wasn't quite true (AMD spanked Intel with 64bit processors) but Intel regained its throne with the introduction of Core processors a few years back. This doesn't mean that AMD processors are bad, but if you have the money it won't hurt to get an Intel.&lt;/p&gt;
+
+&lt;p&gt;Next up are cores. Basically, Intel and AMD realized they were having trouble making processors faster. We've had ~3.0 GHz computers since 2000 or so. Apparently going faster made things melt. They decided to scale by adding more processors instead. If you have one processor at 3.0 GHz, two of them is even better! Each of these "processors" is a core.&lt;/p&gt;
+
+&lt;p&gt;It's worth noting that having more cores doesn't automatically make your computer faster. Many programs don't take advantage of more than one core, though this is slowly changing. Instead, more cores allow your computer to multitask better. Programs (like SL, Photoshop, etc.) can hog a single core and avoid competing with other programs for processing time.&lt;/p&gt;
+
+&lt;p&gt;Finally, let's talk clock speed. A computer can flip a bit from 1 to 0 or 0 to 1 once per "cycle." If you speed up the frequency of the cycles, the computer becomes faster. That frequency is the clock speed. As I mentioned above, processors have sort of topped out around 3.5 GHz. Instead of increasing the clock rate, Intel and AMD now focus on doing more tasks per clock cycle via strategies like multiple cores.&lt;/p&gt;
+
+&lt;p&gt;Most mere humans (myself included) usually cannot tell the difference between a 2.6 GHz and 2.8 GHz machine unless we're actually reading a CPU speed output. Therefore, the absolute fastest processors are generally a huge rip off. For example, Intel's current top of the line (i7-990X, since its successor i7-3960X won't be out till the fall) is $1000. It is a 3.46 GHz 6 core beast. The next step down (i7-970) is also six cores, but "only" 3.2 GHz. It's also a bit over half as much  at $550.&lt;/p&gt;
+
+&lt;p&gt;I've found the sweet spot for best bang per buck sits somewhere around 2.4 - 2.8 GHz for desktops and 2.0 - 2.2 GHz for laptops. Quadcore is pretty standard in the desktop arena and most laptops are following suit. In mid 2011, just about any Intel Core processor (from the high end i7s to the low end i3s) should serve you well. On the AMD side, you'll probably want to stick to Phenom II X6 processors from the last year or two or one of upcoming high-end Bulldozer processors.&lt;/p&gt;
+
+&lt;h4&gt;Hard Drive&lt;/h4&gt;
+
+&lt;p&gt;As I mentioned before, a mechanical disk drives are basically the slowest parts of a computer. Spinning magnetic disks are slower than memory chips and there's not much you can do about it. However, this really shouldn't affect SL performance. We're talking maybe a few more fps going from the slowest drives to the absolute fastest. If you really want to know about the fastest hard dives, keep reading. If you just want a guideline, skip to the last paragraph before the next section.&lt;/p&gt;
+
+&lt;p&gt;The way gamers used to solve this "problem" of a "horribly slow" hard drive was to:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;get drives that spin faster&lt;/li&gt;
+&lt;li&gt;run a bunch of drives in parallel&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The latter is what I like to call "a bad idea." If one of those multiple drives ever fails, all of the data is inaccessible. It's a lot of complexity for not that much reward. However, if you are interested,  go read up on RAID0.&lt;/p&gt;
+
+&lt;p&gt;As for spinning faster, standard desktop drives today run at 7200 rpm. Green power storage drives are usually 5400 rpm. 5400 is kinda slow, but 7200 is what most of us are used to. Gamers, though, would often look at WD Raptors and Velociraptors that run at 10,000 rpm. For comparison, high end storage drives used to top out at 15,000 rpm.&lt;/p&gt;
+
+&lt;p&gt;However, spinning discs cannot compete with memory chips like the ones in USB flash drives. So why not use a giant flash drive inside your computer? That's the basic premise of solid state drives. The average solid state drive (SSD) blows even the fastest mechanical hard disk drives (HDD) out of the water.&lt;/p&gt;
+
+&lt;p&gt;SSDs come at a price. A really really huge price. While the cost has dropped over the last few years, you're still looking at $1.50-$2 minimum per GB in mid 2011. HDDs, on the other had, are currently somewhere around $0.10/GB.&lt;/p&gt;
+
+&lt;p&gt;On top of that, SSDs are often smaller than your average HDD. While you can find 2TB SSDs, average consumer ones are usually between 32GB to 256GB. HDDs on the other hand, go all the way to 3TB right now.&lt;/p&gt;
+
+&lt;p&gt;For what its worth, I currently don't use SSDs in any of my computers, but will probably switch when I buy my next one in a year or two. I'll run my operating system and programs off an SSD and keep all my data (music, movies, pictures, etc.) on a storage HDD.&lt;/p&gt;
+
+&lt;p&gt;Basically, if you're getting a mechanical drive, make sure its at least 7200 rpm. That is the standard desktop speed. If you are getting a solid state drive, make sure you do you your research and have enough storage space. It's up to you to determine your storage needs.&lt;/p&gt;
+
+&lt;h3&gt;Network Cards&lt;/h3&gt;
+
+&lt;p&gt;Really, your ISP will be the limiting factor here. Having a good connection really helps with all sorts of internet things.&lt;/p&gt;
+
+&lt;p&gt;However, if you are worried about your computer's network capabilities, keep reading.&lt;/p&gt;
+
+&lt;p&gt;In general, faster is better (and usually more expensive).&lt;/p&gt;
+
+&lt;p&gt;For wired network cards, 10GbE (10 Gbit/s) &gt; 1GbE (1 Gbit/s) &gt; 100 Mbit/s &gt; 10 Mbit/s.&lt;/p&gt;
+
+&lt;p&gt;For wireless network cards, Dual 802.11n (600 Mbit/s) &gt; 802.11n (300 Mbit/s)&gt; 802.11g (4 Mbit/s)&gt; 802.11b (11 Mbit/s) .&lt;/p&gt;
+
+&lt;p&gt;Keep in mind that every part of the connection is as fast as the weakest link. Most residential internet connections are under 100 Mbit/s. The faster specifications could help inside the house though. If you have two 802.11n laptops and an 802.11n router, you could possibly transfer files at speeds over 100 Mbit/s despite only having a 15Mbit/s internet connection outside the house.&lt;/p&gt;
+
+&lt;p&gt;Most current desktops support 1GbE. More and more laptops are offering 802.11n wireless cards every day. However, many of the routers I've gotten from ISPs in the last two years (a Comcast cable modem/router and a Verizon FIOS router the year before) only support 100 Mbit/s wired 802.11g wireless.&lt;/p&gt;
+
+&lt;h3&gt;Other Stuff&lt;/h3&gt;
+
+&lt;p&gt;The following is a list of other stuff I can think of in or around computers:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Monitor&lt;/li&gt;
+&lt;li&gt;Keyboard&lt;/li&gt;
+&lt;li&gt;Mouse&lt;/li&gt;
+&lt;li&gt;Sound card&lt;/li&gt;
+&lt;li&gt;Mic and/or Webcam&lt;/li&gt;
+&lt;li&gt;Card reader and/or media drives (Blu-ray, DVD, CD)&lt;/li&gt;
+&lt;li&gt;External hard drive&lt;/li&gt;
+&lt;li&gt;TV tuner&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;None of these should have an effect on your SL performance. A lot of these could affect your SL (screen size, ergonomic comfort, being that guy or girl with the static on voice) but will mostly come down to personal needs and preferences.&lt;/p&gt;
+
+&lt;h2&gt;Laptops vs Desktops&lt;/h2&gt;
+
+&lt;p&gt;Most of what I've said thus far applies to both laptops and desktops. Again, which you choose will probably come down to personal preference and needs.&lt;/p&gt;
+
+&lt;p&gt;Laptops were made to be portable. This makes them more expensive than desktops with an equivalent feature set. If you aren't planning on moving your computer around a lot, getting a desktop will probably get you more bang for your buck. If size is a huge concern, then a laptop might be better for you. That said, there are rather small desktop cases out there nowadays like the Sugo SG07 mentioned in this &lt;a href="http://www.silentpcreview.com/Silent_Gaming_System_Build_Guide/"&gt;small form factor gaming guide&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;For what its worth, I run SL on a laptop most of the time. When I blogged and took a lot of photographs in SL, I did most of it on a desktop.&lt;/p&gt;
+
+&lt;h2&gt;Apple&lt;/h2&gt;
+
+&lt;p&gt;This guide is aimed towards people running Windows or Linux. Ironically, I use my Apple laptop most of the time. Most of the general recommendations and guidelines still apply to Apple machines. However, Apple only supports a limited set of hardware so some of the details may not apply.&lt;/p&gt;
+
+&lt;p&gt;Thanks to the way that Apple segments its markets, it's actually pretty easy to recommend Apple products for Second Life. If you want a desktop, a recent iMac works pretty well and would probably serve you well for a year or two. A Mac Pro might last you twice as long but will probably cost you more than twice as much.&lt;/p&gt;
+
+&lt;p&gt;On the laptop front, you want a Macbook Pro.&lt;/p&gt;
+
+&lt;h2&gt;Summary&lt;/h2&gt;
+
+&lt;p&gt;So here's a recap:&lt;/p&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;Graphics Card&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Desktops: NVIDIA. Laptops: a crap shoot.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;Operating System&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;64bit OS&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;Memory&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;4GB at least&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;Processor&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Quadcore, at least 2.0GHz. Intel or AMD.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;Hard Drive&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Don&amp;#8217;t do 5400 RPM unless its for storage. Anything else should work.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;dt&gt;Network Card&lt;/dt&gt;
+&lt;dd&gt;
+&lt;p&gt;Just make sure you&amp;#8217;re online.&lt;/p&gt;
+&lt;/dd&gt;
+&lt;/dl&gt;
+    </content>
+  </entry>
+  <entry>
+    <title>Get Your Legacy Names
+    </title>
+    <link href="http://blog.spressie.com/2011/01/19/get-your-legacy-names">
+    </link>
+    <updated>2011-01-19T00:01:00Z
+    </updated>
+    <id>http://blog.spressie.com/2011/01/19/get-your-legacy-names
+    </id>
+    <content type="html">&lt;p&gt;&lt;ins&gt;Update: A year or so later, these don't work very reliably. Just get a username. Upgrade to Viewer 3.&lt;/ins&gt;&lt;/p&gt;
+
+&lt;p&gt;I'm pretty sure that everyone knows about the new username system
+by now.&lt;/p&gt;
+
+&lt;p&gt;But what you might not know is that older "legacy" names are still
+available too.&lt;/p&gt;
+
+&lt;p&gt;I mentioned in the PS section of my &lt;a href="http://spressie.com/2010/11/19/whats-in-a-name/"&gt;last post about usernames&lt;/a&gt;
+that you can still get legacy names from SLNameWatch.
+Unfortunately, most of the portals that used to be listed there are
+no longer listed. As of last weekend, though, the following three
+portals still work for me:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://registration.secondhealth.org.uk/"&gt;SecondHealth&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://registration.scilands.org.uk/"&gt;SciLands&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://sl.nmc.org/create.php"&gt;NMC&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I'm honestly not sure why RegAPI still works. When usernames rolled
+out, it was indicated the the RegAPI was going to be turned off
+soon. However, a few other things (merging the TeenGrid, for
+example) were also mentioned as coming soon but haven't gone live
+yet. I'm guessing that RegAPI owners wanted the API upgraded for
+usernames, since they probably invested heavily in their welcome
+area and SL-related infrastructure.&lt;/p&gt;
+
+&lt;p&gt;In the meanwhile, you can still get your legacy names and snag that
+silly alt name you've always wanted.&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title>expressRez
+    </title>
+    <link href="http://blog.spressie.com/2010/12/25/expressrez">
+    </link>
+    <updated>2010-12-25T00:12:00Z
+    </updated>
+    <id>http://blog.spressie.com/2010/12/25/expressrez
+    </id>
+    <content type="html">&lt;p&gt;I just released my first opensource project ever, &lt;a href="http://github.com/expresszenovka/expressRez"&gt;expressRez&lt;/a&gt;.
+It's a tool for builders that allows them to package and re-rez
+large builds that can't be linked together into a single piece.&lt;/p&gt;
+
+&lt;p&gt;I know that products like it exist, but why spend $2 when you can
+write your own? Actually, I didn't think it'd be very difficult and
+I really didn't need much functionality, at first. Then I realized
+I need a little more, and a little more, and two days later
+expressRez came together.&lt;/p&gt;
+
+&lt;p&gt;The thing is, I haven't really tested expressRez much. It works for
+the builds I made it for, and it does what I want. I don't really
+need any more functionality and don't plan on adding to it unless I
+find something that is broken.&lt;/p&gt;
+
+&lt;p&gt;As a result, I decided to open source it under the &lt;a href="http://www.gnu.org/licenses/gpl.html"&gt;GNU GPL&lt;/a&gt;.
+This way I can share it, and give it others, but in a somewhat
+manageable way. I considered a variety of licenses and settled on
+GPL because of the strict copyleft. I release it under the GPL, so
+any derived works also need to released under the GPL.&lt;/p&gt;
+
+&lt;p&gt;What does that mean in simple terms?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You'll need to attribute the script somehow and make an option to provide source if you pass the script on to to others.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The easiest way to do that is to just leave the scripts modifiable.
+There's a copyright message at the top of scripts, and since they
+are modifiable anyone can click and see. This works regardless of
+whether you've made any modifications to the script (short of
+removing the copyright info -- that's just bad).&lt;/p&gt;
+
+&lt;p&gt;If you're uncomfortable with that, you can use a notecard that
+attributes the script to me and provides a link to the github
+repository for others to get the code themselves. This, however,
+only works if you are using the scripts without modification.
+&lt;strong&gt;If you pass on the script (regardless of wether this is part of a product or just giving it to a friend), the next person should be able to get the source of what they're receiving.&lt;/strong&gt;
+So if you've made modifications, you'll need to offer the modified
+source on request.&lt;/p&gt;
+
+&lt;p&gt;The only thing is, I unfortunately don't have the time to offer
+support for these scripts. Beyond the instructions, you're on your
+own. I will offer paid support, but even that is a on a case by
+case basis.&lt;/p&gt;
+
+&lt;p&gt;At the end of the day, I hope I help a few builders out. Merry
+Christmas.&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title>two365 post
+    </title>
+    <link href="http://blog.spressie.com/2010/12/18/two365-post">
+    </link>
+    <updated>2010-12-18T00:12:00Z
+    </updated>
+    <id>http://blog.spressie.com/2010/12/18/two365-post
+    </id>
+    <content type="html">&lt;p&gt;Just wanted to point y'all over to my twothreesixfive post over at
+&lt;a href="http://bit.ly/ffoHRR"&gt;twothreesixfive.wordpress.com&lt;/a&gt;. It was hard to put all my
+thoughts in 365 words or fewer.&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title>Viewers Redux
+    </title>
+    <link href="http://blog.spressie.com/2010/12/06/viewers-redux">
+    </link>
+    <updated>2010-12-06T00:12:00Z
+    </updated>
+    <id>http://blog.spressie.com/2010/12/06/viewers-redux
+    </id>
+    <content type="html">&lt;p&gt;So it turns out that &lt;a href="http://spressie.com/2010/09/08/linden-lab-viewers/"&gt;my last post about Linden Lab viewers&lt;/a&gt; has
+become outdated thanks to updates the Lab. Snowstorm is in,
+Snowglobe is out.&lt;/p&gt;
+
+&lt;p&gt;And now that I have a bit of time on my hands (and some work to
+blow off), I figured I'd work on an update.&lt;/p&gt;
+
+&lt;h2&gt;Viewers from Linden Lab&lt;/h2&gt;
+
+&lt;h3&gt;Official Viewer Types&lt;/h3&gt;
+
+&lt;p&gt;Before getting to the viewers, there is a &lt;a href="http://wiki.secondlife.com/wiki/Viewer_Types"&gt;wiki page&lt;/a&gt; devoted
+purely to types of viewers from Linden Lab. Here's my quick
+summary, in order of relative stability (from least to most):&lt;/p&gt;
+
+&lt;dl&gt;
+&lt;dt&gt;Alpha/Nightly&lt;/dt&gt;
+&lt;dd&gt;builds straight from whatever is latest in the code repository. may (in fact, probably) will not work well.&lt;/dd&gt;
+&lt;dt&gt;Development&lt;/dt&gt;
+&lt;dd&gt;builds from Project Snowstorm, ideally consisting of working features but many new features will be in an alpha state.&lt;/dd&gt;
+&lt;dt&gt;Project&lt;/dt&gt;
+&lt;dd&gt;builds focusing on a very specific set of features, generally meant to preview a new feature before it hits the main grid. often connect to the beta grid.&lt;/dd&gt;
+&lt;dt&gt;Beta&lt;/dt&gt;
+&lt;dd&gt;builds contain code that is on track for the next release. may contain bugs, bug fixes, and new features but not yet ready for primetime. for usage with the main grid.&lt;/dd&gt;
+&lt;dt&gt;Release Candidate (RC)&lt;/dt&gt;
+&lt;dd&gt;beta builds that are almost ready for primetime. the final release candidate is rarely very different from the release that follows.&lt;/dd&gt;
+&lt;dt&gt;Release&lt;/dt&gt;
+&lt;dd&gt;an official release&lt;/dd&gt;
+&lt;/dl&gt;
+
+&lt;h3&gt;Official Viewer&lt;/h3&gt;
+
+&lt;p&gt;Still available at &lt;a href="http://get.secondlife.com"&gt;get.secondlife.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Viewer 1.23.5 is still on the &lt;a href="http://wiki.secondlife.com/wiki/Supported_Viewers"&gt;supported viewers list&lt;/a&gt;. I still
+think it's the worst option out there, not counting malicious
+viewers. But it is there.&lt;/p&gt;
+
+&lt;p&gt;For the more adventurous types, there's always the beta viewer
+lower down on the &lt;a href="http://secondlife.com/support/downloads/"&gt;downloads page&lt;/a&gt;. Currently, the beta builds
+are one subversion ahead of stable (2.4.x vs 2.3.x).&lt;/p&gt;
+
+&lt;p&gt;Of course, one can also use the latest project viewers, but those
+are mostly meant for the beta grid.&lt;/p&gt;
+
+&lt;h3&gt;Snowglobe&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="http://wiki.secondlife.com/wiki/Snowglobe"&gt;Is dead.&lt;/a&gt; Cue &lt;a href="http://www.youtube.com/watch?v=kyFyAqLtHq8"&gt;Chopin's Funeral March&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3&gt;Snowstorm&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href="http://wiki.secondlife.com/wiki/Project_Snowstorm"&gt;Is not dead&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Project Snowstorm provides two sets of downloadable viewers. The
+first is what most people refer to as the Snowstorm viewer - the
+latest Snowstorm development build. These are compiled from the
+latest code in &lt;a href="http://hg.secondlife.com/viewer-development"&gt;Linden Lab's Viewer Development repository&lt;/a&gt; and
+are currently tagged as two sub-versions ahead of stable (2.5.x vs
+2.3.x), putting them one sub-version past the beta viewer.&lt;/p&gt;
+
+&lt;p&gt;Development builds are for those you who want the bleeding edge.&lt;/p&gt;
+
+&lt;p&gt;The Snowstorm wiki also contains links to &lt;a href="http://wiki.secondlife.com/wiki/Downloading_test_builds"&gt;"developer builds"&lt;/a&gt;,
+which are feature-specific builds. They're very similar in concept
+to project builds, but before the feature is considered ready for
+any sort of public consumption.&lt;/p&gt;
+
+&lt;h2&gt;Pick Your Poison&lt;/h2&gt;
+
+&lt;p&gt;I still use the current release of Viewer 2 most of the time, and
+sometimes use the beta viewer. If and when I cannot do something in
+Viewer 2 (temp uploads, etc.), I generally use
+&lt;a href="http://www.kokuaviewer.org/"&gt;Imprudence/Kokua&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;As always, make sure you are getting your viewer from an official
+source. In the case of Linden Lab, that'd be from secondlife.com.
+For a given third party viewer, that'd be their official download
+site. A little safety can go a long way.&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title>Whats in a Name?
+    </title>
+    <link href="http://blog.spressie.com/2010/11/19/whats-in-a-name">
+    </link>
+    <updated>2010-11-19T00:11:00Z
+    </updated>
+    <id>http://blog.spressie.com/2010/11/19/whats-in-a-name
+    </id>
+    <content type="html">&lt;p&gt;Linden Lab has rolled out the new username system this week. What
+does that mean for you? Probably not that much, but I'll tell you
+what I've found out with the hope that it'll offer some clarity.&lt;/p&gt;
+
+&lt;h2&gt;What are Usernames?&lt;/h2&gt;
+
+&lt;p&gt;There are now two types of accounts in Second Life -- new accounts
+and legacy accounts. Those of us who were on the grid before the
+new naming system are legacy accounts. We chose two names, and we
+get to keep them. Our usernames are created by putting our two
+names together with a period. The new accounts are, well, new. New
+accounts choose only one name, which is their username.&lt;/p&gt;
+
+&lt;p&gt;There's a few different ways to format names, so here's a little
+table stolen shamelessly from the &lt;a href="http://wiki.secondlife.com/wiki/Category:LSL_Avatar/Name"&gt;the SL wiki&lt;/a&gt;.&lt;/p&gt;
+
+&lt;table&gt;
+&lt;caption&gt;Name Formats&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;
+&lt;/th&gt;
+&lt;th&gt;
+New
+&lt;/th&gt;
+&lt;th&gt;
+Legacy
+&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;th&gt;
+User Name
+&lt;/th&gt;
+&lt;td&gt;
+username
+&lt;/td&gt;
+&lt;td&gt;
+firstname.lastname
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+Legacy Name
+&lt;/th&gt;
+&lt;td&gt;
+username Resident
+&lt;/td&gt;
+&lt;td&gt;
+FirstName LastName
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;th&gt;
+Default Display
+&lt;/th&gt;
+&lt;td&gt;
+username
+&lt;/td&gt;
+&lt;td&gt;
+FirstName LastName
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Pretty simple. The one extra thing worth noting is that
+firstnamelastname (without the period) has been marked as taken for
+all legacy accounts.&lt;/p&gt;
+
+&lt;h2&gt;Why Usernames?&lt;/h2&gt;
+
+&lt;p&gt;Usernames act as a way to uniquely identify any given avatar, sorta
+like UUIDS but human readable. Why is LL ditching the old two name
+format? I'm not sure, but probably because having a fixed pool of
+last names kinda sucks. Offering a single username is simpler and
+offers a lot more flexibility. Most other social media use a single
+login name. Twitter, Tumblr, Plurk, Wordpress, Facebook, all give
+you a single username. Even older things like Google, MSN, Yahoo,
+and AIM -- single username. So why should SL be any different?&lt;/p&gt;
+
+&lt;h2&gt;All the Scary Things&lt;/h2&gt;
+
+&lt;p&gt;So what happens to your existing Second Life name? Absolutely
+nothing. No one else can claim it as a username, because of the
+check mentioned above. Simple as that.&lt;/p&gt;
+
+&lt;h2&gt;Why the Fuss?&lt;/h2&gt;
+
+&lt;p&gt;For some reason, the loss of last names has prompted a huge
+username grab by existing users, sorta like domain parking without
+the selling the domain for profit bit.&lt;/p&gt;
+
+&lt;p&gt;I can understand why people might be concerned. If anyone has
+established a brand name in Second Life, it would be nice to snag
+the username that matches the brand (or more importantly, prevent
+others from snagging the username). In fact, I'm guilty of that
+doing exactly that and snagging a few usernames I consider
+important.&lt;/p&gt;
+
+&lt;p&gt;But, on the flipside, someone has always been able to register a
+Second Life name with the name of your store and try to pretend to
+be you. Whats the difference between someone trying to be
+YourBrandName Resident and YourBrandName Mananguinne or
+YourBrandName Jolifaunt? At the end of the day, the person they're
+trying to trick has to be smart enough to figure out the actual
+owner of the brand. If the victim is new, naive, or just plain
+gullible, you can't really win that battle.&lt;/p&gt;
+
+&lt;p&gt;So the mad rush for usernames seems a little silly, unless of
+course you went and registered YourBrandName LastName for every
+single last name available. If you did that, you just have too much
+time on your hands.&lt;/p&gt;
+
+&lt;p&gt;The one thing I can think of is that usernames might come up first
+in search results (the way profiles do now). So an alt with a pick
+pointing to your store might not be that bad of an idea. However,
+trying to use usernames as generic search keywords goes a bit too
+far. Would you click on the user than comes up for the search
+"houses" or "clothes"?&lt;/p&gt;
+
+&lt;h2&gt;Related to Display Names&lt;/h2&gt;
+
+&lt;p&gt;As a side note, the switch to usernames goes hand in hand with the
+new display name concept. You can register with boring old
+firstnamebirthyear like every other place (e.g. johndoe1950) but
+call yourself whatever you want (perhaps "Sir Bedevere the Wise").
+And, just like any other place on the internet, someone can pretend
+to be someone they are not. Welcome to the interhighway. We have
+Nigerian prisoners and lotteries that want to give you money.
+Really.&lt;/p&gt;
+
+&lt;p&gt;P.S. If you still want old fashioned dual names, the RegAPI seems
+to still work. Check out http://slnamewatch.com.&lt;/p&gt;
+
+&lt;p&gt;P.P.S. While on the topic of names, there's only one lab. Linden
+Lab, that is. Not "Linden Labs". Get it right.&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title>I Feel Sorry for Lindens
+    </title>
+    <link href="http://blog.spressie.com/2010/10/20/i-feel-sorry-for-lindens">
+    </link>
+    <updated>2010-10-20T00:10:00Z
+    </updated>
+    <id>http://blog.spressie.com/2010/10/20/i-feel-sorry-for-lindens
+    </id>
+    <content type="html">&lt;p&gt;I really do. Because we, as a community, treat them like shit.&lt;/p&gt;
+
+&lt;p&gt;We want others to treat us like human beings. We remind them that
+there is a human on the other side of the internet, a real living
+human being with emotions an want others to treat us with at least
+some bit of decency as a result.&lt;/p&gt;
+
+&lt;p&gt;But when it comes to Lindens, somehow the same rule doesn't apply.
+We hold them to different standards. Every Linden, regardless of
+their position, occupation, and expertise, is responsible for
+making sure all of Second Life works perfectly the exact way we
+want it to. We want that Linden in customer service to switch
+everything back to Viewer 1.x as much as we expect that Linden who
+works on inworld rendering to fix search so that our store is the
+first result in search (as opposed to every other store that wants
+to be first).&lt;/p&gt;
+
+&lt;p&gt;How often have you heard that "Linden Lab can't do _______
+right?" Every little thing from grid stability to which features
+are implemented in the viewer to whether or not a Linden can dress
+themselves -- the universal assumption is that Linden Lab is slow,
+bumbling, and inept. Never mind the fact that they, you know,
+created this huge virtual world that many of like to use daily. How
+has SL survived as long as it has while so many "Second Life
+killers" have failed? Because nobody else has been able to do it
+better yet.&lt;/p&gt;
+
+&lt;p&gt;The fact of the matter is: Linden Lab has made a lot of good stuff
+and done a lot of hard work. Without LL, there would be no SL. If
+it were easy to make a virtual world that supports as many users
+and does as much as SL, all of those competitors would have
+succeeded. OpenSimulator came about by reverse engineering Second
+Life -- yes its a clean room and yes it has lots of fancy things
+that SL doesn't -- but it wouldn't have come about on its own.
+Similarly, most of the popular third party viewers are based on
+code from Linden Lab.&lt;/p&gt;
+
+&lt;p&gt;Is the Lab perfect? Of course not, but they're human. Yes, they've
+taken missteps and made mistakes. And yes, some of their decisions
+may not have been so popular. Linden Lab is a business. They must
+do what the board of directors wants. They have to abide by the
+laws of the countries they reside in. And (arguably) more
+importantly, they must make a profit in order to continue their
+growth.&lt;/p&gt;
+
+&lt;p&gt;At the end of the day, though, every Linden is a regular human,
+just like you and me. Do you really think Lindens are going out of
+their way to make you crash? That they're going out of their way to
+cripple their own virtual world? That they have so little pride in
+their work that everything they put out is half-assed crap? What
+may seem like a little feature may have taken months it implement.
+And of course, like any other humans, they can make mistakes. In
+time, they often attempt to rectify their mistakes as well.&lt;/p&gt;
+
+&lt;p&gt;So next time you curse at the Lab or deride any given Linden, try
+to take a walk in their shoes. You just spent the last few months
+pouring your heart and soul into a project that will be inspected,
+critiqued, and ridiculed for everything from cosmetic issues to the
+technology it runs on. Much of your user base, despite clamoring
+for the project's completion, will resist using it because it is
+not what they are used to. A portion of those that do test your
+project will try it within the first 24 hours after beta release,
+find a flaw or experience an incompatibility, and then join that
+group of naysayers who decry the project. On top of that, they
+won't report the issue in the bug tracker, leaving you in the dark
+as they spread word of the issue to their friends and social
+network. A smaller portion of extremely vocal opponents will claim
+they could do it better, citing their degree in something or
+another that is comparable to your degree. They'll say that if you
+truly knew what you were doing the product would have had x, y, and
+z, all features that are in the pipeline but were deemed not quite
+stable enough for the first public launch. And every time you fix
+something, they'll criticize the architecture of your product and
+demand you start the entire project from scratch.&lt;/p&gt;
+
+&lt;p&gt;It's a thankless job, and nobody has to do it for us.&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title>Setting Up OpenSimulator on Ubuntu
+    </title>
+    <link href="http://blog.spressie.com/2010/10/02/setting-up-opensimulator-on-ubuntu">
+    </link>
+    <updated>2010-10-02T00:10:00Z
+    </updated>
+    <id>http://blog.spressie.com/2010/10/02/setting-up-opensimulator-on-ubuntu
+    </id>
+    <content type="html">&lt;p&gt;I'm not a third party grid fan, I but I do like the ability to have
+my own sandbox sim. I can build or try to make content here,
+exporting backups as I work. When I'm done I can just export the
+final version and import it to Second Life. Figured I'd share how I
+set this all up for those who want a similar
+sandbox.&lt;/p&gt;
+
+&lt;p&gt;I used a fresh install of the
+&lt;a href="http://www.ubuntu.com/server"&gt;32bit server edition of Ubuntu 10.04.1&lt;/a&gt;. I used 32bit since I am
+actually running OpenSimulator in a virtual machine with only 2GB
+of memory. No need for 64bit with that little memory. Also,
+OpenSimulator has (had?) a few issues with 64bit hardware so I
+figured I could sidestep those. If you want to install in a VM as
+well, try using &lt;a href="http://www.virtualbox.org/"&gt;VirtualBox&lt;/a&gt; and make sure you set up a VM to use
+bridged networking or host-only networking so it has its own
+discrete IP for access.&lt;/p&gt;
+
+&lt;p&gt;The first thing I did was to change my APT settings so that I don't
+install suggested or required packages. Suggested packages are
+sometimes useful, but I find that recommended packages are often
+unecessary. I actually make this change on every Debian-based
+machine I run.&lt;/p&gt;
+
+&lt;p&gt;So I added an extra file &lt;code&gt;11lean&lt;/code&gt; to &lt;code&gt;/etc/apt/apt.conf.d/&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre class="prettyprint lang-sh"&gt;
+// Recommends are as of now still abused in many packages
+APT::Install-Recommends "0";
+APT::Install-Suggests "0";`
+&lt;/pre&gt;
+
+&lt;p&gt;I decided to compile myself, just to see what it was like.
+Surprisingly, it wasn't actually that difficult nor long, even in a
+virtual machine. However, if compiling isn't your cup of tea you
+can grab various binaries from &lt;a href="http://opensimulator.org/wiki/Download"&gt;their official download page&lt;/a&gt;.
+The official download page also has links to third party builds so
+you can install the whole thing via apt if you want.&lt;/p&gt;
+
+&lt;p&gt;Before I built I needed the prerequisites.&lt;/p&gt;
+
+&lt;pre class="prettyprint lang-sh"&gt;
+sudo aptitude install git-core nant libmono-system-runtime2.0-cil \
+libmono-microsoft8.0-cil
+&lt;/pre&gt;
+
+&lt;p&gt;Git is not necessary, but the project uses a &lt;a href="http://opensimulator.org/viewgit/?a=summary&amp;amp;p=opensim"&gt;git repository&lt;/a&gt;. If
+you ever want to install the latest source you can use&lt;/p&gt;
+
+&lt;pre class="prettyprint lang-sh"&gt;
+git clone git://opensimulator.org/git/opensim
+&lt;/pre&gt;
+
+&lt;p&gt;But, the wiki says not to use the head revision since they can be
+unstable. So I used the latest source release instead. For the
+record, I probably should have used &lt;code&gt;/usr/src/local&lt;/code&gt; but I was lazy
+and did all this from my user's home directory.&lt;/p&gt;
+
+&lt;pre class="prettyprint lang-sh"&gt;
+wget http://dist.opensimulator.org/opensim-0.7.0.2-source.tar.gz
+tar xzf opensim-0.7.0.2-source.tar.gz
+cd opensim-0.7.0.2-source/
+./runprebuild.sh
+nant
+&lt;/pre&gt;
+
+&lt;p&gt;And that was it. Had no errors while building. Before running I
+made a few changes.&lt;/p&gt;
+
+&lt;p&gt;First I installed mysql (to use that instead of sqlite) because
+that's easy enough to do.&lt;/p&gt;
+
+&lt;pre class="prettyprint lang-sh"&gt;
+sudo aptitude install mysql-server
+&lt;/pre&gt;
+
+&lt;p&gt;Then I ran mysql and created a db for OpenSimulator. Make sure you
+actually choose your own password for the user&lt;/p&gt;
+
+&lt;pre class="prettyprint lang-sh"&gt;
+mysql -u root -p -h localhost
+mysql&gt; create database opensim;
+mysql&gt; use opensim;
+mysql&gt; create user 'opensim'@'localhost' identified by 'password';
+mysql&gt; grant all on *.* to 'opensim'@'localhost';
+mysql&gt; quit
+&lt;/pre&gt;
+
+&lt;p&gt;Then I had to set up a few configuration files.&lt;/p&gt;
+
+&lt;pre class="prettyprint lang-sh"&gt;
+cd bin/
+cp OpenSim.ini.example OpenSim.ini
+&lt;/pre&gt;
+
+&lt;p&gt;Inside OpenSim.ini I commented out the sqlite lines with a ';' and
+uncommented the mySQL lines. I also set the password I chose above
+in the connection line. Turns out there's a separate config file
+for standalones, so I changed similar lines in that file too.&lt;/p&gt;
+
+&lt;pre class="prettyprint lang-sh"&gt;
+cp config-include/StandaloneCommon.ini.example config-include/StandaloneCommon.ini
+&lt;/pre&gt;
+
+&lt;p&gt;Finally, I installed screen so I could "hide away" the process in a
+lazy way and finally ran the thing.&lt;/p&gt;
+
+&lt;pre class="prettyprint lang-sh"&gt;
+sudo aptitude install screen
+screen
+mono OpenSim.32BitLaunch.exe
+&lt;/pre&gt;
+
+&lt;p&gt;When I ran that for the first time, it asked me a few things about
+the region and my first avatar. It all worked and it said the
+region was up.&lt;/p&gt;
+
+&lt;p&gt;Next up was accessing the sim. I used &lt;a href="http://imprudenceviewer.org/"&gt;Imprudence&lt;/a&gt;, my current
+(and long-time) favorite third party viewer. I don't use TPVs
+often, but when I do I use Imprudence.&lt;/p&gt;
+
+&lt;p&gt;Had I set this up on my Linux desktop, I could have used the
+localhost grid but since I have a dedicated VM, I had to set up my
+own grid entry in the grid manager. Login is on port 9000 by
+default, so it was just http://test-vm-ip:9000. Selected my grid,
+entered the avatar name and password, and voila:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://www.flickr.com/photos/expresszenovka/5043866714/" title="OpenSimulator Test by expresszenovka, on Flickr"&gt;&lt;img src="http://farm5.static.flickr.com/4147/5043866714_d540f2a802.jpg" width="500" height="351" alt="OpenSimulator Test" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Look at that Ruth.&lt;/p&gt;
+
+&lt;p&gt;As a disclaimer: I'm not an OpenSimulator developer, and what
+worked for me might not work for you. I probably can't help you set
+up OpenSimulator - I used a combination of google and the official
+wiki to do what I did. I've never set up a third party grid, nor do
+I plan to anytime soon. I also have never set up OpenSimulator on
+Windows and the only time I tried on OS X I used a pre-packaged dmg
+from the download page.&lt;/p&gt;
+
+&lt;p&gt;Suggestions and improvements to this guide are definitely welcome,
+though this quick and dirty install worked just fine for me.&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title>Other Grids
+    </title>
+    <link href="http://blog.spressie.com/2010/10/02/other-grids">
+    </link>
+    <updated>2010-10-02T00:10:00Z
+    </updated>
+    <id>http://blog.spressie.com/2010/10/02/other-grids
+    </id>
+    <content type="html">&lt;p&gt;I like OpenSimulator but grids running on
+OpenSimulator aren't for me.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h2&gt;OpenSimulator is Cool&lt;/h2&gt;
+
+&lt;p&gt;That might seem contradictory at first. If you like OpenSimulator,
+why wouldn't you like OpenSimulator grids? The answer is quite
+simple -- I like the ideas and goals of &lt;a href="http://opensimulator.org/"&gt;OpenSimulator&lt;/a&gt;. I like
+the potential, and I like the innovation. In fact, I installed
+OpenSimulator on my desktop within minutes of finding the project and
+remember grinning like an idiot standing there ruthed on my own
+standalone sim. In fact, I'll probably make a quick post about how
+to set up your own standalone OpenSimulator soon.&lt;/p&gt;
+
+&lt;p&gt;But notice that I said a standalone sim. That means that I was
+running a 1x1 grid of my own, managing (amongst other things) the
+list of users, the assets, messaging between users, and of course
+the simulator region all on the same machine. When you connect an
+OpenSimulator region to a grid, you rely on the userlist, assets,
+messaging system, and grid management provided by the grid's host.
+When &lt;a href="http://www.osgrid.org/elgg/pg/utilities/connect"&gt;connecting a region to OSGrid&lt;/a&gt;, for example, you use
+osgrid.org to provide that functionality.&lt;/p&gt;
+
+&lt;h2&gt;Who is Accountable?&lt;/h2&gt;
+
+&lt;p&gt;And there-in lies my problem. I need to trust the grid owner to
+keep my content safe and not misuse it. If a grid owner
+accidentally sets up their asset server without enough protection,
+or a grid owner purposefully opens up security on certain assets,
+the content is free game. Or hey, what if the owner decides to just
+log in as me, give half of my inventory full perms to a random
+account, then wipe it from the logs?&lt;/p&gt;
+
+&lt;p&gt;If that happened in SL, I could hold Linden Lab responsible. But
+who can I hold accountable for an OpenSimulator grid? You can't
+hold the OpenSimulator project responsible, due to their
+&lt;a href="http://opensimulator.org/wiki/Contributions_Policy"&gt;licensing policy&lt;/a&gt;. The grid owners, perhaps? Lets try to figure
+out who that is for OSGrid. I don't want to pick on them, but they
+claim to be the largest OpenSimulator grid on their front page and
+according to &lt;a href="http://opensimulator.org/wiki/Grid_List/OSGrid"&gt;the OpenSimulator wiki&lt;/a&gt; they are the second oldest.
+If the OSGrid team can't be found or held responsible in any way,
+how could I expect to track down a smaller and less known grid's
+owner?&lt;/p&gt;
+
+&lt;p&gt;As a start, OSGrid Inc. is a California non-profit organization. So
+there must be a board of directors of some sort, but I'm not sure
+where to find that. On top of that, the &lt;a href="http://www.osgrid.org/elgg/pg/expages/read/Terms/"&gt;Terms of Service&lt;/a&gt;,
+&lt;a href="http://www.osgrid.org/elgg/pg/expages/read/About/"&gt;About&lt;/a&gt;, and &lt;a href="http://www.osgrid.org/elgg/pg/expages/read/Privacy/"&gt;Privacy&lt;/a&gt; pages are all empty. For the record,
+they were that way when I checked three months ago (mid June 2010)
+as well. My next step would be to check a &lt;a href="http://whois.domaintools.com/osgrid.org"&gt;who-is&lt;/a&gt;, which came up
+with a name. A quick google check verified that he was indeed the
+guy behind OSGrid.&lt;/p&gt;
+
+&lt;p&gt;The thing is, I was able to find a name to pin after a bit of
+searching. But what if a hypothetical grid owner covered his
+tracks, living outside the US and hiding his domain information.
+*If* I were able to find proof that he had misused my content,
+how would I track him down? Linden Lab has a lot to lose if this
+sort of scandal erupted -- whether or not LL actually did it. But
+this grid owner can just up and walk away.&lt;/p&gt;
+
+&lt;h2&gt;Paranoia?&lt;/h2&gt;
+
+&lt;p&gt;You might say I'm being paranoid. That no grid owner has stolen
+information yet. Does anyone remember Legend City Online? LCO was a
+grid that popped up in late 2008, back when the Lab announced the
+sim price hike and few other unpleasant changes. Many words were
+said about how great and how awful LCO was, how it would scare LL
+as worthy competition and how it would relieve LL by proving
+OpenSim grids aren't competition.&lt;/p&gt;
+
+&lt;p&gt;Well, the owner of Legend City Online
+&lt;a href="http://secondthoughts.typepad.com/second_thoughts/2008/12/sl-legend-simone-locked-out-of-legend-city-online.html"&gt;supposedly banned Simone Stern (of Simone! Design) because of a dispute over a contract&lt;/a&gt;!
+As a side note, yes I did just link to Prok. Regardless, it is
+conceivable to locked out and seperated from your content in Second
+Life as well, but a Linden could not take your data and move it
+elsewhere. A third party grid owner could take your content and
+move it to SL.&lt;/p&gt;
+
+&lt;h2&gt;So You Don't Like OpenSimulator?&lt;/h2&gt;
+
+&lt;p&gt;I like OpenSimulator a lot. As an open source alternative to Linden
+Lab's grid and simulator software, it provides Second Life-like
+functionality to people who don't want to be constrained by Linden
+Lab or connected to the rest of the Second Life grid. And of top of
+that, usage is free. That makes it perfect for most academic and
+corporate use.&lt;/p&gt;
+
+&lt;p&gt;OpenSimulator is also good for personal use. Designers and builders
+can work in the privacy of their own space, creating backups
+whenever they want, and then export and import into Second Life
+when they are done.&lt;/p&gt;
+
+&lt;p&gt;In fact, to the average, residential Second Life user, an
+OpenSimulator grid could be a viable alternative to Second Life.
+Sure, the software is not as stable, and all of the latest and
+greatest from Second Life might not be available.&lt;/p&gt;
+
+&lt;p&gt;But, as a content creator, I am not sure I can trust a third party
+grid owner. Linden Lab, as a corporation, can barely protect my
+intellectual property and does so simply because it must. Will I
+receive the same protection, if any, from a grid run by a few
+individuals in their spare time? Could I accidentally give up all of
+my creations full perm by teleporting to rogue sim run by a
+hacker?&lt;/p&gt;
+
+&lt;p&gt;To be honest, IP is not really the issue. The bigger concern is
+whether or not someone else can use my IP and gain revenue at my
+expense. If I were just donating my skills and work, not expecting
+any revenue, OpenSimulator would be wonderful and amazing. But as
+long as I want to derive income from my work, OpenSimulator is
+worrisome to me.&lt;/p&gt;
+
+&lt;h2&gt;Linden Lab Isn't So Bad&lt;/h2&gt;
+
+&lt;p&gt;OpenSimulator offers many configuration options. Not just how a
+given simulator is configured, but even the grids themselves. There
+are multiple options for voice servers and money/transaction
+servers. While this flexibility is good for grid owners, it
+provides more unknowns for me as a content creator. In contrast,
+Linden Lab's walled garden provides a sort of comfort that is
+appealing.&lt;/p&gt;
+
+&lt;p&gt;We all know how well that walled garden attitude worked for AOL,
+but Second Life is not the same as the internet. Maybe, in a few
+years, when a "Second Life" protocol is put forth that binds Linden
+Lab and all other simulator software, which has content security
+built in from the ground up, then I'll trust OpenSimulator grids.
+But until then, those grids are as appealing as a sketchy site that
+tells me that my Linux based laptop needs to run their
+VirusScan.exe.&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title>Linden Lab Viewer(s)
+    </title>
+    <link href="http://blog.spressie.com/2010/09/08/linden-lab-viewers">
+    </link>
+    <updated>2010-09-08T00:09:00Z
+    </updated>
+    <id>http://blog.spressie.com/2010/09/08/linden-lab-viewers
+    </id>
+    <content type="html">&lt;p&gt;Times are a'changing in the world of SL viewers. Many people are
+searching for a new viewer, desperately trying various ones before
+throwing their hands up into the air and blaming Linden Lab for
+everything. Quite a few folks have written guides to help those
+displaced residents find a new viewer. Hey, I even started one, but
+then I got bored.
+So I figured instead of a giant viewer vs viewer post I'd mention
+something most folks seem to forget:
+&lt;em&gt;Linden Lab had made and currently supports more than one viewer.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;You might be staring slack-jawed wondering why I'm recommending
+something from Linden Lab. So I'll enumerate my reasons briefly and
+then expand on them a bit later.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Linden Lab makes Second Life.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;No really. That's about it.&lt;/p&gt;
+
+&lt;h2&gt;The Goods&lt;/h2&gt;
+
+&lt;p&gt;Of course, you can get Viewer 2. That one's easy:
+&lt;a href="http://get.secondlife.com"&gt;get.secondlife.com&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Linden Lab still supports Viewer 1.x as well, at least for now. If
+you want &lt;em&gt;any&lt;/em&gt; older official release just go to
+&lt;a href="http://wiki.secondlife.com/wiki/Old_versions"&gt;the old versions page&lt;/a&gt; on the wiki. One caveat, though, is that
+older releases may have security flaws and issues connecting to the
+grid. Also (imho) the official Viewer 1.x is just about the worst
+option out there for viewers nowadays.&lt;/p&gt;
+
+&lt;p&gt;The reason why it sucks is &lt;a href="http://snowglobeproject.org/"&gt;Snowglobe&lt;/a&gt;. Amongst other things,
+Snowglobe made it easier to submit, commit, and test patches that
+might eventually end up in the core viewer. So Snowglobe viewers
+have everything the regular viewers have plus a few extra features
+that havent't been as thoroughly tested.&lt;/p&gt;
+
+&lt;p&gt;Snowglobe is available in both &lt;a href="http://wiki.secondlife.com/wiki/Snowglobe"&gt;1.x and 2.x flavors&lt;/a&gt;, and still
+seems to be going under active development (albeit at a somewhat
+slower pace than last year).&lt;/p&gt;
+
+&lt;p&gt;It's worth noting that the Lab recently announced
+&lt;a href="http://blogs.secondlife.com/community/technology/blog/2010/08/16/project-snowstorm-our-new-open-development-program"&gt;Project Snowstorm&lt;/a&gt;. Snowstorm seems to be very much like a
+Snowglobe 2.0, for Viewer 2.x, taking the best parts of the
+Snowglobe project and reworking the bits that didn't work. There's
+already been dev builds released from Snowstorm but I haven't tried
+them since they are dev/alpha builds.&lt;/p&gt;
+
+&lt;h2&gt;The Pros&lt;/h2&gt;
+
+&lt;p&gt;Snowglobe rezzes faster. This probably has to do with getting
+textures using http, but I'm not sure. Before Viewer 2, Snowglobe
+1.x was my preferred viewer purely for its speed. The extra
+features were just icing on the cake.&lt;/p&gt;
+
+&lt;p&gt;Linden Lab open-sourced their viewer code. This allowed people to
+improve and extend the viewer. In fact,
+&lt;a href="http://svn.secondlife.com/trac/linden/browser/trunk/doc/contributions.txt"&gt;a good number of JIRA tickets were closed thanks to contributions from residents based on that open code&lt;/a&gt;.
+Despite that, most of the code in both the official viewers and
+thirty party viewers (based on the opensourced viewer code) was
+written by a Linden. So it has to be a pretty good base.&lt;/p&gt;
+
+&lt;p&gt;Related to that, Linden Lab doesn't have the resources to code check
+every line in a third party viewer. The &lt;a href="http://viewerdirectory.secondlife.com/"&gt;Viewer Directory&lt;/a&gt; is
+"self-certified", meaning the &lt;em&gt;developers&lt;/em&gt; are attesting that their
+viewer is TOS/TPV compliant. The onus of determining each viewer's
+safety is on the resident, not Linden Lab. You can download
+hundreds of applications (legally and illegally) from the internet,
+and just about every one of those apps could potentially contain
+viruses, trojans, spyware, etc. Even if you have the latest
+antivirus definitions and malware detection, would those tools be
+able to tell the difference between an encrypted packet being sent
+to Linden Lab and an encrypted packet going some shady developer's
+server?&lt;/p&gt;
+
+&lt;p&gt;I'm not trying to spread FUD about third party viewers -- they just
+require a bit more research to make sure they are safe. Regardless
+of your operating system, you as the user are the first line of
+defense for your computer. Assuming you trust Linden Lab (because
+you want to be on their grid), they're probably the safest place to
+get a Second Life viewer. For lack of a better analogy coming to
+mind, using an LL viewer is kinda like abstinence instead of using
+a contraceptive.&lt;/p&gt;
+
+&lt;h2&gt;The Cons&lt;/h2&gt;
+
+&lt;p&gt;The older official viewer is, as mentioned above, probably the
+lamest viewer around -- third party viewers included. That's
+because its sort of the "lowest common denominator" for all
+viewers. Every other viewer has its features and it has nothing on
+them. That's why you'll probably want to pick one of the other
+options from the Lab.&lt;/p&gt;
+
+&lt;p&gt;In general, though, viewers from Linden Lab are designed for the
+widest user base, leading to fewer optimizations. For
+example, the viewer is able to run on Pentium III processors, so it
+is not compiled with SSE2 support (which would make 3D computations
+marginally faster). Most of these kinds of computational advantages
+are barely noticeable in day to day usage, though, so I don't
+consider that a very large con.&lt;/p&gt;
+
+&lt;p&gt;What few optimizations are in place lead to "exclusion" of a
+section of the market. The best example I can think of is the way
+Second Life has favored NVIDIA graphics cards over ATI graphics
+cards. I don't know if Linden Lab actually had some sort of
+exclusion agreement in place with NVIDIA, but at the end of the day
+their favoring NVIDIA often leaves ATI users feeling left out and
+frustrated by the official viewers, especially since ATI has
+enjoyed a resurgence in popularity these last few years.&lt;/p&gt;
+
+&lt;p&gt;The fault, however, is not completely Linden Lab's. Linden Lab
+relies on OpenGL, a cross-language, cross-platform API for computer
+graphics. ATI didn't implement OpenGL very well in the past, so it
+made sense to optimize for NVIDIA. Now that ATI has (to some
+extent) caught up, it would probably be nice to see feature parity
+between the two vendors. Maybe that's why shadows are still in
+alpha?&lt;/p&gt;
+
+&lt;p&gt;The biggest con, however, is that development of the official
+viewer is a slow moving beast. The Lab's QA cycle is long, and new
+features and improvements take a while to roll out. That's where I
+see Snowglobe/storm stepping in to pick up the pace.&lt;/p&gt;
+
+&lt;h2&gt;In the End&lt;/h2&gt;
+
+&lt;p&gt;I use Viewer 2.1 as my main viewer. It works well enough for my
+needs on my two computers. Both of my machines were purchased with
+Second Life in mind, so I did my best to make sure I had hardware
+that worked. For me, that meant getting mid to high end NVIDIA
+graphics cards (8600M GT &amp;amp; GTX 260) and having at least 4GB of
+system RAM. I generally run Medium graphics on my laptop and Ultra
+on my desktop. Thus far, I haven't crashed very often (maybe once
+or twice a month?)&lt;/p&gt;
+
+&lt;p&gt;Once Snowstorm brings Snowglobe 2.x up to parity with Viewer 2.1
+and Snowglobe 1.4, I 'll probably switch to that. Linden Lab has
+made it clear the future is Viewer 2.x and to be honest, I kinda
+like the interface.&lt;/p&gt;
+
+&lt;p&gt;If I ever need a version 1.x Viewer, I go back to Snowglobe. Sure,
+I may be missing a few fancy bells and whistles from third party
+viewers, but I almost never need them so I didn't mind. When I do,
+I use the viewer with the feature I need.&lt;/p&gt;
+
+&lt;p&gt;As always, your mileage may vary. Just don't discount any viewers
+on account of their coming from the Lab.&lt;/p&gt;
+    </content>
+  </entry>
+</feed>

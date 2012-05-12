@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta author="Express Zenovka">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Linden Lab Viewer(s) - Dorktastically Delicious
+    </title>
+    <link rel="stylesheet" type="text/css" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Droid+Serif:400,700">
+    <link href="/stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="/stylesheets/desert.css" media="screen" rel="stylesheet" type="text/css">
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml">
+    <script type="text/javascript" src="/javascripts/prettify.js"></script>
+  </head>
+  <body onload="prettyPrint()" class="post">
+    <header id="header">
+      <hgroup>
+        <h1><a href="/">Dorktastically Delicious</a>
+        </h1>
+        <h2>Puts the sausage in awesomesausage
+        </h2>
+      </hgroup>
+      <nav class="web">
+        <h3>Social
+        </h3>
+        <ul>
+          <li class="plurk"><a href="http://plurk.com/express">Plurk</a>
+          </li>
+          <li class="twitter"><a href="http://twitter.com/expresszenovka">Twitter</a>
+          </li>
+          <li class="fb"><a href="http://www.facebook.com/expresszenovka">Facebook</a>
+          </li>
+          <li class="sl"><a href="http://my.secondlife.com/express.zenovka">Second Life</a>
+          </li>
+        </ul>
+        <h3>Work
+        </h3>
+        <ul>
+          <li class="gh"><a href="http://github.com/expresszenovka/">Github</a>
+          </li>
+          <li class="bb"><a href="http://github.com/expresszenovka/">Bitbucket</a>
+          </li>
+          <li class="flickr"><a href="http://www.flickr.com/people/expresszenovka/">Flickr</a>
+          </li>
+        </ul>
+        <h3>Network
+        </h3>
+        <ul>
+          <li><a href="http://lunajubilee.com">Luna Jubilee</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="content">
+      <nav id="breadcrumb"><a href="/" class="read-more">&larr; Back</a>
+      </nav>
+<article class="hentry">
+  <header>
+    <h1 class="entry-title"><a href="/2010/09/08/linden-lab-viewers">Linden Lab Viewer(s)</a>
+    </h1>
+    <time datetime="2010-09-08T00:09:00Z" pubdate="pubdate" class="updated">08 September 2010
+    </time>
+    <p class="byline author vcard">by <span class="fn">Express Zenovka</span>
+    </p>
+    <div class="tags"><a href="/tags.html#tech">tech</a>, <a href="/tags.html#linden%20lab">linden lab</a>, <a href="/tags.html#viewer">viewer</a>, <a href="/tags.html#tpv">tpv</a>
+    </div>
+  </header><p>Times are a'changing in the world of SL viewers. Many people are
+searching for a new viewer, desperately trying various ones before
+throwing their hands up into the air and blaming Linden Lab for
+everything. Quite a few folks have written guides to help those
+displaced residents find a new viewer. Hey, I even started one, but
+then I got bored.
+So I figured instead of a giant viewer vs viewer post I'd mention
+something most folks seem to forget:
+<em>Linden Lab had made and currently supports more than one viewer.</em></p>
+
+<p>You might be staring slack-jawed wondering why I'm recommending
+something from Linden Lab. So I'll enumerate my reasons briefly and
+then expand on them a bit later.</p>
+
+<ol>
+<li>Linden Lab makes Second Life.</li>
+</ol>
+
+<p>No really. That's about it.</p>
+
+<h2>The Goods</h2>
+
+<p>Of course, you can get Viewer 2. That one's easy:
+<a href="http://get.secondlife.com">get.secondlife.com</a>.</p>
+
+<p>Linden Lab still supports Viewer 1.x as well, at least for now. If
+you want <em>any</em> older official release just go to
+<a href="http://wiki.secondlife.com/wiki/Old_versions">the old versions page</a> on the wiki. One caveat, though, is that
+older releases may have security flaws and issues connecting to the
+grid. Also (imho) the official Viewer 1.x is just about the worst
+option out there for viewers nowadays.</p>
+
+<p>The reason why it sucks is <a href="http://snowglobeproject.org/">Snowglobe</a>. Amongst other things,
+Snowglobe made it easier to submit, commit, and test patches that
+might eventually end up in the core viewer. So Snowglobe viewers
+have everything the regular viewers have plus a few extra features
+that havent't been as thoroughly tested.</p>
+
+<p>Snowglobe is available in both <a href="http://wiki.secondlife.com/wiki/Snowglobe">1.x and 2.x flavors</a>, and still
+seems to be going under active development (albeit at a somewhat
+slower pace than last year).</p>
+
+<p>It's worth noting that the Lab recently announced
+<a href="http://blogs.secondlife.com/community/technology/blog/2010/08/16/project-snowstorm-our-new-open-development-program">Project Snowstorm</a>. Snowstorm seems to be very much like a
+Snowglobe 2.0, for Viewer 2.x, taking the best parts of the
+Snowglobe project and reworking the bits that didn't work. There's
+already been dev builds released from Snowstorm but I haven't tried
+them since they are dev/alpha builds.</p>
+
+<h2>The Pros</h2>
+
+<p>Snowglobe rezzes faster. This probably has to do with getting
+textures using http, but I'm not sure. Before Viewer 2, Snowglobe
+1.x was my preferred viewer purely for its speed. The extra
+features were just icing on the cake.</p>
+
+<p>Linden Lab open-sourced their viewer code. This allowed people to
+improve and extend the viewer. In fact,
+<a href="http://svn.secondlife.com/trac/linden/browser/trunk/doc/contributions.txt">a good number of JIRA tickets were closed thanks to contributions from residents based on that open code</a>.
+Despite that, most of the code in both the official viewers and
+thirty party viewers (based on the opensourced viewer code) was
+written by a Linden. So it has to be a pretty good base.</p>
+
+<p>Related to that, Linden Lab doesn't have the resources to code check
+every line in a third party viewer. The <a href="http://viewerdirectory.secondlife.com/">Viewer Directory</a> is
+"self-certified", meaning the <em>developers</em> are attesting that their
+viewer is TOS/TPV compliant. The onus of determining each viewer's
+safety is on the resident, not Linden Lab. You can download
+hundreds of applications (legally and illegally) from the internet,
+and just about every one of those apps could potentially contain
+viruses, trojans, spyware, etc. Even if you have the latest
+antivirus definitions and malware detection, would those tools be
+able to tell the difference between an encrypted packet being sent
+to Linden Lab and an encrypted packet going some shady developer's
+server?</p>
+
+<p>I'm not trying to spread FUD about third party viewers -- they just
+require a bit more research to make sure they are safe. Regardless
+of your operating system, you as the user are the first line of
+defense for your computer. Assuming you trust Linden Lab (because
+you want to be on their grid), they're probably the safest place to
+get a Second Life viewer. For lack of a better analogy coming to
+mind, using an LL viewer is kinda like abstinence instead of using
+a contraceptive.</p>
+
+<h2>The Cons</h2>
+
+<p>The older official viewer is, as mentioned above, probably the
+lamest viewer around -- third party viewers included. That's
+because its sort of the "lowest common denominator" for all
+viewers. Every other viewer has its features and it has nothing on
+them. That's why you'll probably want to pick one of the other
+options from the Lab.</p>
+
+<p>In general, though, viewers from Linden Lab are designed for the
+widest user base, leading to fewer optimizations. For
+example, the viewer is able to run on Pentium III processors, so it
+is not compiled with SSE2 support (which would make 3D computations
+marginally faster). Most of these kinds of computational advantages
+are barely noticeable in day to day usage, though, so I don't
+consider that a very large con.</p>
+
+<p>What few optimizations are in place lead to "exclusion" of a
+section of the market. The best example I can think of is the way
+Second Life has favored NVIDIA graphics cards over ATI graphics
+cards. I don't know if Linden Lab actually had some sort of
+exclusion agreement in place with NVIDIA, but at the end of the day
+their favoring NVIDIA often leaves ATI users feeling left out and
+frustrated by the official viewers, especially since ATI has
+enjoyed a resurgence in popularity these last few years.</p>
+
+<p>The fault, however, is not completely Linden Lab's. Linden Lab
+relies on OpenGL, a cross-language, cross-platform API for computer
+graphics. ATI didn't implement OpenGL very well in the past, so it
+made sense to optimize for NVIDIA. Now that ATI has (to some
+extent) caught up, it would probably be nice to see feature parity
+between the two vendors. Maybe that's why shadows are still in
+alpha?</p>
+
+<p>The biggest con, however, is that development of the official
+viewer is a slow moving beast. The Lab's QA cycle is long, and new
+features and improvements take a while to roll out. That's where I
+see Snowglobe/storm stepping in to pick up the pace.</p>
+
+<h2>In the End</h2>
+
+<p>I use Viewer 2.1 as my main viewer. It works well enough for my
+needs on my two computers. Both of my machines were purchased with
+Second Life in mind, so I did my best to make sure I had hardware
+that worked. For me, that meant getting mid to high end NVIDIA
+graphics cards (8600M GT &amp; GTX 260) and having at least 4GB of
+system RAM. I generally run Medium graphics on my laptop and Ultra
+on my desktop. Thus far, I haven't crashed very often (maybe once
+or twice a month?)</p>
+
+<p>Once Snowstorm brings Snowglobe 2.x up to parity with Viewer 2.1
+and Snowglobe 1.4, I 'll probably switch to that. Linden Lab has
+made it clear the future is Viewer 2.x and to be honest, I kinda
+like the interface.</p>
+
+<p>If I ever need a version 1.x Viewer, I go back to Snowglobe. Sure,
+I may be missing a few fancy bells and whistles from third party
+viewers, but I almost never need them so I didn't mind. When I do,
+I use the viewer with the feature I need.</p>
+
+<p>As always, your mileage may vary. Just don't discount any viewers
+on account of their coming from the Lab.</p>
+
+</article>
+
+    </section>
+    <footer>
+      <nav class="web">
+        <h3>Social
+        </h3>
+        <ul>
+          <li class="plurk"><a href="http://plurk.com/express">Plurk</a>
+          </li>
+          <li class="twitter"><a href="http://twitter.com/expresszenovka">Twitter</a>
+          </li>
+          <li class="fb"><a href="http://www.facebook.com/expresszenovka">Facebook</a>
+          </li>
+          <li class="sl"><a href="http://my.secondlife.com/express.zenovka">Second Life</a>
+          </li>
+        </ul>
+        <h3>Work
+        </h3>
+        <ul>
+          <li class="gh"><a href="http://github.com/expresszenovka/">Github</a>
+          </li>
+          <li class="bb"><a href="http://github.com/expresszenovka/">Bitbucket</a>
+          </li>
+          <li class="flickr"><a href="http://www.flickr.com/people/expresszenovka/">Flickr</a>
+          </li>
+        </ul>
+        <h3>Network
+        </h3>
+        <ul>
+          <li><a href="http://lunajubilee.com">Luna Jubilee</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="copyright">Content &copy; Express Zenovka
+      </p>
+    </footer>
+  </body>
+</html>

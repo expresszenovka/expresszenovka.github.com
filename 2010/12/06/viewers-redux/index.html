@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta author="Express Zenovka">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Viewers Redux - Dorktastically Delicious
+    </title>
+    <link rel="stylesheet" type="text/css" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Droid+Serif:400,700">
+    <link href="/stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css">
+    <link href="/stylesheets/desert.css" media="screen" rel="stylesheet" type="text/css">
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.rss">
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml">
+    <script type="text/javascript" src="/javascripts/prettify.js"></script>
+  </head>
+  <body onload="prettyPrint()" class="post">
+    <header id="header">
+      <hgroup>
+        <h1><a href="/">Dorktastically Delicious</a>
+        </h1>
+        <h2>Puts the sausage in awesomesausage
+        </h2>
+      </hgroup>
+      <nav class="web">
+        <h3>Social
+        </h3>
+        <ul>
+          <li class="plurk"><a href="http://plurk.com/express">Plurk</a>
+          </li>
+          <li class="twitter"><a href="http://twitter.com/expresszenovka">Twitter</a>
+          </li>
+          <li class="fb"><a href="http://www.facebook.com/expresszenovka">Facebook</a>
+          </li>
+          <li class="sl"><a href="http://my.secondlife.com/express.zenovka">Second Life</a>
+          </li>
+        </ul>
+        <h3>Work
+        </h3>
+        <ul>
+          <li class="gh"><a href="http://github.com/expresszenovka/">Github</a>
+          </li>
+          <li class="bb"><a href="http://github.com/expresszenovka/">Bitbucket</a>
+          </li>
+          <li class="flickr"><a href="http://www.flickr.com/people/expresszenovka/">Flickr</a>
+          </li>
+        </ul>
+        <h3>Network
+        </h3>
+        <ul>
+          <li><a href="http://lunajubilee.com">Luna Jubilee</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="content">
+      <nav id="breadcrumb"><a href="/" class="read-more">&larr; Back</a>
+      </nav>
+<article class="hentry">
+  <header>
+    <h1 class="entry-title"><a href="/2010/12/06/viewers-redux">Viewers Redux</a>
+    </h1>
+    <time datetime="2010-12-06T00:12:00Z" pubdate="pubdate" class="updated">06 December 2010
+    </time>
+    <p class="byline author vcard">by <span class="fn">Express Zenovka</span>
+    </p>
+    <div class="tags"><a href="/tags.html#tech">tech</a>, <a href="/tags.html#linden%20lab">linden lab</a>, <a href="/tags.html#viewer">viewer</a>, <a href="/tags.html#tpv">tpv</a>
+    </div>
+  </header><p>So it turns out that <a href="http://spressie.com/2010/09/08/linden-lab-viewers/">my last post about Linden Lab viewers</a> has
+become outdated thanks to updates the Lab. Snowstorm is in,
+Snowglobe is out.</p>
+
+<p>And now that I have a bit of time on my hands (and some work to
+blow off), I figured I'd work on an update.</p>
+
+<h2>Viewers from Linden Lab</h2>
+
+<h3>Official Viewer Types</h3>
+
+<p>Before getting to the viewers, there is a <a href="http://wiki.secondlife.com/wiki/Viewer_Types">wiki page</a> devoted
+purely to types of viewers from Linden Lab. Here's my quick
+summary, in order of relative stability (from least to most):</p>
+
+<dl>
+<dt>Alpha/Nightly</dt>
+<dd>builds straight from whatever is latest in the code repository. may (in fact, probably) will not work well.</dd>
+<dt>Development</dt>
+<dd>builds from Project Snowstorm, ideally consisting of working features but many new features will be in an alpha state.</dd>
+<dt>Project</dt>
+<dd>builds focusing on a very specific set of features, generally meant to preview a new feature before it hits the main grid. often connect to the beta grid.</dd>
+<dt>Beta</dt>
+<dd>builds contain code that is on track for the next release. may contain bugs, bug fixes, and new features but not yet ready for primetime. for usage with the main grid.</dd>
+<dt>Release Candidate (RC)</dt>
+<dd>beta builds that are almost ready for primetime. the final release candidate is rarely very different from the release that follows.</dd>
+<dt>Release</dt>
+<dd>an official release</dd>
+</dl>
+
+<h3>Official Viewer</h3>
+
+<p>Still available at <a href="http://get.secondlife.com">get.secondlife.com</a>.</p>
+
+<p>Viewer 1.23.5 is still on the <a href="http://wiki.secondlife.com/wiki/Supported_Viewers">supported viewers list</a>. I still
+think it's the worst option out there, not counting malicious
+viewers. But it is there.</p>
+
+<p>For the more adventurous types, there's always the beta viewer
+lower down on the <a href="http://secondlife.com/support/downloads/">downloads page</a>. Currently, the beta builds
+are one subversion ahead of stable (2.4.x vs 2.3.x).</p>
+
+<p>Of course, one can also use the latest project viewers, but those
+are mostly meant for the beta grid.</p>
+
+<h3>Snowglobe</h3>
+
+<p><a href="http://wiki.secondlife.com/wiki/Snowglobe">Is dead.</a> Cue <a href="http://www.youtube.com/watch?v=kyFyAqLtHq8">Chopin's Funeral March</a>.</p>
+
+<h3>Snowstorm</h3>
+
+<p><a href="http://wiki.secondlife.com/wiki/Project_Snowstorm">Is not dead</a>.</p>
+
+<p>Project Snowstorm provides two sets of downloadable viewers. The
+first is what most people refer to as the Snowstorm viewer - the
+latest Snowstorm development build. These are compiled from the
+latest code in <a href="http://hg.secondlife.com/viewer-development">Linden Lab's Viewer Development repository</a> and
+are currently tagged as two sub-versions ahead of stable (2.5.x vs
+2.3.x), putting them one sub-version past the beta viewer.</p>
+
+<p>Development builds are for those you who want the bleeding edge.</p>
+
+<p>The Snowstorm wiki also contains links to <a href="http://wiki.secondlife.com/wiki/Downloading_test_builds">"developer builds"</a>,
+which are feature-specific builds. They're very similar in concept
+to project builds, but before the feature is considered ready for
+any sort of public consumption.</p>
+
+<h2>Pick Your Poison</h2>
+
+<p>I still use the current release of Viewer 2 most of the time, and
+sometimes use the beta viewer. If and when I cannot do something in
+Viewer 2 (temp uploads, etc.), I generally use
+<a href="http://www.kokuaviewer.org/">Imprudence/Kokua</a>.</p>
+
+<p>As always, make sure you are getting your viewer from an official
+source. In the case of Linden Lab, that'd be from secondlife.com.
+For a given third party viewer, that'd be their official download
+site. A little safety can go a long way.</p>
+
+</article>
+
+    </section>
+    <footer>
+      <nav class="web">
+        <h3>Social
+        </h3>
+        <ul>
+          <li class="plurk"><a href="http://plurk.com/express">Plurk</a>
+          </li>
+          <li class="twitter"><a href="http://twitter.com/expresszenovka">Twitter</a>
+          </li>
+          <li class="fb"><a href="http://www.facebook.com/expresszenovka">Facebook</a>
+          </li>
+          <li class="sl"><a href="http://my.secondlife.com/express.zenovka">Second Life</a>
+          </li>
+        </ul>
+        <h3>Work
+        </h3>
+        <ul>
+          <li class="gh"><a href="http://github.com/expresszenovka/">Github</a>
+          </li>
+          <li class="bb"><a href="http://github.com/expresszenovka/">Bitbucket</a>
+          </li>
+          <li class="flickr"><a href="http://www.flickr.com/people/expresszenovka/">Flickr</a>
+          </li>
+        </ul>
+        <h3>Network
+        </h3>
+        <ul>
+          <li><a href="http://lunajubilee.com">Luna Jubilee</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="copyright">Content &copy; Express Zenovka
+      </p>
+    </footer>
+  </body>
+</html>
